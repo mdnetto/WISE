@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Coda');
+
+body { 
+	background-color: #fdf6e3;
+}
+
+.outer-circle {
+	border: 10px solid black;
+	border-radius: 50%;
+	width: 600px;
+	height: 600px;
+	margin: 100px auto;
+}
+
+.quadrant {
+	z-index: -100;
+	display: inline-block;
+	float: left;
+	width: 295px;
+	height: 295px;
+}
+
+#q1 {
+	background-color: #2aa198;
+	border-radius: 300px 0 0 0;
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+}
+
+#q2 {
+	background-color: #dc322f;
+	border-radius: 0 300px 0 0;
+	border-left: 5px solid black;
+	border-bottom: 5px solid black;
+}
+
+
+#q3 {
+	background-color: #d33682;
+	border-radius: 0 0 0 300px;
+	border-right: 5px solid black;
+	border-top: 5px solid black;
+}
+
+#q4 {
+	background-color: #6c71c4;
+	border-radius: 0 0 300px 0;
+	border-left: 5px solid black;
+	border-top: 5px solid black;
+}
+.inner-circle {
+	position: absolute;
+	z-index: 1000;
+	border: 10px solid black;
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	margin: 165px 165px;
+	background-color: black;
+	font: 70px coda; helvetica;
+	color: #fdf6e3;
+	text-align: center;
+	line-height: 240px;
+}
