@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Coda');
 
 body { 
-	background-color: #fdf6e3;
+	background-color: #002b36;
 }
 
 .outer-circle {
@@ -28,12 +28,11 @@ body {
 }
 
 #q2 {
-	background-color: #dc322f;
+	background-color: #b58900;
 	border-radius: 0 300px 0 0;
 	border-left: 5px solid black;
 	border-bottom: 5px solid black;
 }
-
 
 #q3 {
 	background-color: #d33682;
@@ -48,6 +47,10 @@ body {
 	border-left: 5px solid black;
 	border-top: 5px solid black;
 }
+
+.lit {
+	opacity: 0.6;
+}
 .inner-circle {
 	position: absolute;
 	z-index: 1000;
@@ -57,8 +60,31 @@ body {
 	height: 250px;
 	margin: 165px 165px;
 	background-color: black;
-	font: 70px coda; helvetica;
 	color: #fdf6e3;
 	text-align: center;
-	line-height: 240px;
+}
+
+.active {
+	opacity: 0.2 !important;
+}
+
+.hoverable:hover {
+	cursor: pointer;
+}
+
+button {
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+p {
+	font: 20px coda; helvetica;
+	margin-bottom: 0;
+}
+
+h1 {
+	font: 70px coda; helvetica;
+	margin: 0;
+
 }
