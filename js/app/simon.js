@@ -2,8 +2,8 @@ define(['jquery'], function($) {
 	'use strict'; 
 
 	var Simon = {
-		round: 0,
 		copy: [],
+		round: 0,
 		simonSequence: [],
 		playerIsWinning: true,
 
@@ -18,18 +18,20 @@ define(['jquery'], function($) {
 		startNewGame: function() {
 			this.round = 0;
 			this.copy = [];
-			this.startNewRound();
 			this.simonSequence = [];
 			this.playerIsWinning = true;
+
+			this.startNewRound();
 		},
 		
 		startNewRound: function() {
 			$('[data-round]').text(++this.round);
+			console.log(this.simonSequence);
 			this.simonSequence.push(this.generateRandomTile());
 
 			//slice grabs a shallow copy of array starting from pos 0
 			this.copy = this.simonSequence.slice(0);
-			console.log("The trouble is with Copy. Copy is now: " + this.copy);
+			console.log(this.simonSequence);
 			this.animate(this.simonSequence);
 		},
 
