@@ -9,6 +9,7 @@ define(['jquery'], function($) {
 
 		init: function() {
 		var that = this;
+			$('p[data-action="lose"]').hide();
 			$('[data-action=start]').on('click', function() {
 				that.startNewGame();
 			});
@@ -20,7 +21,6 @@ define(['jquery'], function($) {
 			this.startNewRound();
 			this.simonSequence = [];
 			this.playerIsWinning = true;
-			$('p[data-action="lose"]').hide();
 		},
 		
 		startNewRound: function() {
@@ -29,6 +29,7 @@ define(['jquery'], function($) {
 
 			//slice grabs a shallow copy of array starting from pos 0
 			this.copy = this.simonSequence.slice(0);
+			console.log("The trouble is with Copy. Copy is now: " + this.copy);
 			this.animate(this.simonSequence);
 		},
 
