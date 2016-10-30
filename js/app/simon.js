@@ -21,6 +21,7 @@ define(['jquery'], function($) {
 			this.simonSequence = [];
 			this.playerIsWinning = true;
 
+			$('p[data-action="lose"]').hide();
 			this.startNewRound();
 		},
 		
