@@ -55,12 +55,14 @@ Now that you've found your partner, everyone needs to line up in order that they
 
 
 ## HTML Exercise 3
-Let's open up the HTML file for Simon and look at the tags.
+Tags can have id's or classes on them which helps you to target elements when you want to style them with CSS or add actions to them with Javascript.
+
+Let's open up the HTML file for Simon and look at tags that have id's.
 
 1. In your editor, look for a file called simon.html
-2. Try re-arranging the tags which have an id with q1, q2, q3, or q4 
+2. Try re-arranging the tags that have an id like q1, q2, q3, or q4 
 
-HINT: they on lines 11-15
+HINT: they're on lines 11-15 and they look like this
 ```
 <div id="q2" class="quadrant" data-tile="2"></div>
 <div id="q3" class="quadrant" data-tile="3"></div>
@@ -100,7 +102,7 @@ HINT: The button tag is on line 19, move it to line 10
 
 
 # CSS
-CSS stands for Cascading Style Sheets, it's a language that lets you apply styles to the tags you set up in your HTML. An example of a style in the simon game is:
+CSS stands for Cascading Style Sheets and it lets you apply styles to the tags you set up in your HTML. An example of a style in the simon game is:
 ```
 body { 
 	background-color: #002b36;
@@ -138,7 +140,8 @@ HINT: Here's how you can change the first quadrant to red on line 24
 
 ## CSS Exercise 3
 1. Let's change color of the button
-HINT: the button styles start from line 75 and you need to set the background-color
+
+HINT: the button styles start on line 75 and you need to set the background-color
 ``` 
 button {
 	display: block;
@@ -148,8 +151,24 @@ button {
 }
 ```
 
+## CSS Exercise 4
+1. Can you figure out how to change the inner circle's black background color?
+
+HINT: you can look at the html file to find the class
+
+
+## CSS Exercise 5
+1. What else can you change in the CSS file? Sometimes it's helpful to have a [reference](http://www.w3schools.com/cssreF/) of what styles you can use and what they do.
+
+HINT: you can look at the html file to find the class
+
+
 # Javascript
+Javascript is an object-oriented computer programming language commonly used to create interactive effects within web browsers. In our simon game, it holds all the logic which makes the game playable.
+
+
+
+
 
 # Additional coding puzzles
-* [Maze and Bee] (https://studio.code.org/s/course4/stage/2/puzzle/1)
 * [Maze and Bee] (https://studio.code.org/s/course4/stage/2/puzzle/1)
