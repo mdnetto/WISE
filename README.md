@@ -16,7 +16,7 @@ These three concepts are:
 2. See how many levels you can get through!
 
 ### HTML
-When writing HTML, you add "tags" to the text in order to create the structure. These tags tell the browser how to display the text or graphics in the document. Tags are surrounded by arrow keys like this. 
+When writing HTML, you add "tags" to the text in order to create the structure. These tags tell the browser how to display the text or graphics in the document. Tags are surrounded by left and right arrow keys like this `<p>`. 
 
 ```
 <html> open html tag
@@ -48,13 +48,20 @@ HTML tags are often nested inside other tags. For example the `<div>` tag below 
 </div>
 ```
 
-Now that you've found your partner, everyone needs to line up in order that they appear above. Hint: The person with the 
+Now that you've found your partner, everyone needs to line up in order that they appear above. Hint: The person with the opening `<html>` tag will be first in the line and the person with the closing `</html>` tag will be last!
+
 
 #### HTML Exercise 3
 Let's open up the HTML file for Simon and look at the tags.
 
 1. In your editor, look for a file called simon.html
-2. Try rearranging the tags which have an id with q1, q2, q3, or q4
+2. Try re-arranging the tags which have an id with q1, q2, q3, or q4
+```
+<div id="q2" class="quadrant" data-tile="2"></div>
+<div id="q3" class="quadrant" data-tile="3"></div>
+<div id="q4" class="quadrant" data-tile="4"></div>
+<div id="q1" class="quadrant" data-tile="1"></div>
+```
 3. Save the file
 4. Re-load your simon file in the browser
 5. What did you notice?
@@ -62,15 +69,18 @@ Let's open up the HTML file for Simon and look at the tags.
 
 #### HTML Exercise 4
 1. Let's Change the `<title>` tag, change 'Simon' to your name
+```
+<title> Put your name here! </title>
+```
 2. Save the file
 3. Re-load your simon file in the browser
 4. What changed? Can you change it back to 'Simon'
 
 #### HTML Exercise 5
-
-
-
-
+1. Move the `<button>` tag to be the first element inside the `<body` tag.
+2. Save the file
+3. Re-load your simon file in the browser
+4. What changed? Can you figure out how to change it back?
 
 ### CSS
 
