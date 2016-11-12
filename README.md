@@ -1,4 +1,4 @@
-# WISE Workshop
+# WISE Worksho mdnetto p
 
 Welcome to the WISE Coding workshop. My name is Michelle, I'm your workshop leader. Feel free to ask me questions!
 
