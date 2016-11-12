@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Simon</title>
-		<script data-main="js/main" src="js/lib/require.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
-		<body>
-			<div class="simon outer-circle">
-				<div id="q1" class="quadrant" data-tile="1"></div>
-				<div id="q2" class="quadrant" data-tile="2"></div>
-				<div id="q3" class="quadrant" data-tile="3"></div>
-				<div id="q4" class="quadrant" data-tile="4"></div>
-				<div class="inner-circle">
-					<p>Round: <span data-round="0"</span></p>
-					<button data-action="start">Start</button> 
-					<p data-action="lose">Sorry, you lost after <span data-round="0"></span> rounds!</p>
-					<h1 data-action="game-name">simon</h1>
-				</div>
-			</div>
-  </body>
+		<head>
+				<meta charset="utf-8" />
+				<title>Simon</title>
+				<script data-main="js/main" src="js/lib/require.min.js"></script>
+				<link rel="stylesheet" type="text/css" href="css/styles.css" media="screen"/>
+		</head>
+				<body>
+						<div class="simon outer-circle">
+								<div id="q1" class="quadrant" data-tile="1"></div>
+								<div id="q2" class="quadrant" data-tile="2"></div>
+								<div id="q3" class="quadrant" data-tile="3"></div>
+								<div id="q4" class="quadrant" data-tile="4"></div>
+								<div class="inner-circle">
+										<p>Round:		
+												<span data-round="0" </span>
+										</p>
+										<button data-action="start">Start</button> 
+										<p data-action="lose">Sorry, you lost after 
+												<span data-round="0"></span> rounds!
+										</p>
+										<h1 data-action="game-name">simon</h1>
+								</div>
+						</div>
+			</body>
 </html>
