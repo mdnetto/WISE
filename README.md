@@ -55,7 +55,9 @@ Now that you've found your partner, everyone needs to line up in order that they
 Let's open up the HTML file for Simon and look at the tags.
 
 1. In your editor, look for a file called simon.html
-2. Try re-arranging the tags which have an id with q1, q2, q3, or q4 HINT: they on lines 11-15
+2. Try re-arranging the tags which have an id with q1, q2, q3, or q4 
+
+HINT: they on lines 11-15
 ```
 <div id="q2" class="quadrant" data-tile="2"></div>
 <div id="q3" class="quadrant" data-tile="3"></div>
@@ -68,7 +70,9 @@ Let's open up the HTML file for Simon and look at the tags.
 6. Change it back to the correct order!
 
 #### HTML Exercise 4
-1. Let's Change the `<title>` tag, change 'Simon' to your name HINT: it's on line 5
+1. Let's Change the `<title>` tag, change 'Simon' to your name 
+
+HINT: it's on line 5
 ```
 <title> Put your name here! </title>
 ```
@@ -77,7 +81,9 @@ Let's open up the HTML file for Simon and look at the tags.
 4. What changed? Can you change it back to 'Simon'
 
 #### HTML Exercise 5
-1. Move the `<button>` tag to be the first element inside the `<body` tag. HINT: The button tag is on line 19, move it to line 10
+1. Move the `<button>` tag to be the first element inside the `<body` tag. 
+
+HINT: The button tag is on line 19, move it to line 10
 ```
 <body>
 	<button data-action="start">Start</button> 
