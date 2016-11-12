@@ -6,13 +6,13 @@ Today we’re going to explore the Simon game and the main coding concepts that 
 
 These three concepts are:
 * HTML (adds structure to the layout of the page)
-* CSS (are styles that change the presentation of the page)
+* CSS (styles that change the presentation of the page)
 * Javascript (makes our page interactive so we can play Simon)
 
 ![alt text](https://github.com/mdnetto/WISE/blob/master/simon/images/simon.gif "Simon game")
 
 # Simon
-1. Open the simon game and play with it!
+1. Open the Simon game and play with it
 2. See how many levels you can get through!
 
 
@@ -55,7 +55,7 @@ Now that you've found your partner, everyone needs to line up in order that they
 
 
 ## HTML Exercise 3
-Tags can have id's or classes on them which helps you to target elements when you want to style them with CSS or add actions to them with Javascript.
+Tags can have id's or classes on them which helps target elements when you want to style them with CSS or add actions to them with Javascript.
 
 Let's open up the HTML file for Simon and look at tags that have id's.
 
@@ -70,7 +70,7 @@ HINT: they're on lines 11-15 and they look like this
 <div id="q1" class="quadrant" data-tile="1"></div>
 ```
 3. Save the file
-4. Re-load your simon file in the browser
+4. Re-load your simon.html file in the browser
 5. What did you notice?
 6. Change it back to the correct order!
 
@@ -83,7 +83,7 @@ HINT: it's on line 5
 <title> Put your name here! </title>
 ```
 2. Save the file
-3. Re-load your simon file in the browser
+3. Re-load your simon.html file in the browser
 4. What changed? Can you change it back to 'Simon'
 
 
@@ -97,12 +97,12 @@ HINT: The button tag is on line 19, move it to line 10
 	...
 ```
 2. Save the file
-3. Re-load your simon file in the browser
+3. Re-load your simon.html file in the browser
 4. What changed? Can you figure out how to change it back?
 
 
 # CSS
-CSS stands for Cascading Style Sheets and it lets you apply styles to the tags you set up in your HTML. An example of a style in the simon game is:
+CSS stands for Cascading Style Sheets and it lets you apply styles to the tags you set up in your HTML. An example of a style in the Simon game is:
 ```
 body { 
 	background-color: #002b36;
@@ -119,7 +119,7 @@ How do CSS styles get applied to our HTML page?
 <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen"/>
 ```
 2. Save the file
-3. Re-load your simon file in the browser
+3. Re-load your styles.css file in the browser
 
 ## CSS Exercise 2
 Did you notice that the Simon colors aren't red, blue, yellow and green as they should be?
@@ -134,7 +134,7 @@ HINT: Here's how you can change the first quadrant to red on line 24
 	...
 ```
 2. Save the file
-3. Re-load your simon file in the browser
+3. Re-load your styles.css file in the browser
 4. What changed? Can you figure out how to change the other quadrants?
 
 
@@ -164,11 +164,9 @@ HINT: you can look at the html file to find the class
 
 
 # Javascript
-Javascript is an object-oriented computer programming language commonly used to create interactive effects within web browsers. In our simon game, it holds all the logic which makes the game playable.
+Javascript is an object-oriented computer programming language commonly used to create interactive effects within web browsers. In our Simon game, it holds all the logic which makes the game playable.
 
-
-
-
+We're going to see how we might go about finding bugs in the code. Stay tuned!
 
 # Additional coding puzzles
 * [Maze and Bee] (https://studio.code.org/s/course4/stage/2/puzzle/1)
