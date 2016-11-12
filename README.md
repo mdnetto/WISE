@@ -5,8 +5,8 @@
 Today we’re going to explore the Simon game and the main coding concepts that make up the game. 
 
 These three concepts are:
-* HTML (adds structure to the layout of the webpage)
-* CSS (styles that change the look and feel of the website)
+* HTML (adds structure to the layout of the page)
+* CSS (are styles that change the presentation of the page)
 * Javascript (makes our page interactive so we can play Simon)
 
 ![alt text](https://github.com/mdnetto/WISE/blob/master/simon/images/simon.gif "Simon game")
@@ -100,11 +100,31 @@ HINT: The button tag is on line 19, move it to line 10
 
 
 # CSS
+CSS stands for Cascading Style Sheets, it's a language that lets you apply styles to the tags you set up in your HTML. An example of a style in the simon game is:
+```
+body { 
+	background-color: #002b36;
+}
+```
+Here we're setting the background color on the `<body>` tag to the navy blue color you see on the page.
+
+## CSS Exercise 1
+Did you notice that the Simon colors aren't red, blue, yellow and green as they should be?
+
+1. Experiment with changing these colors via their id tags `#q1`, `#q2`, `#q3`, `#q4`. Here's a [link](https://websafecolors.info/color-chart) to colors you can use. 
+
+HINT: Here's how you can change the first quadrant to red
+```#q1 {
+	background-color: #cc0000;
+	...
+```
+2. Save the file
+3. Re-load your simon file in the browser
+4. What changed? Can you figure out how to change the other quadrants?
+
 
 # Javascript
 
 # Additional coding puzzles
 * [Maze and Bee] (https://studio.code.org/s/course4/stage/2/puzzle/1)
-* [] ()
-* [] ()
-* [] ()
+* [Maze and Bee] (https://studio.code.org/s/course4/stage/2/puzzle/1)
