@@ -1,6 +1,6 @@
 # WISE Workshop
 
-Welcome to the WISE Coding workshop. My name is Michelle, I'm your workshop leader. Feel free to ask me questions!
+ Welcome to the WISE Coding workshop. My name is Michelle, I'm your workshop leader. Feel free to ask me questions!
 
 Today we’re going to explore the Simon game and the main coding concepts that make up the game. 
 
