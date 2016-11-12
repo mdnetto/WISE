@@ -15,20 +15,20 @@ These three concepts are:
 When writing HTML, you add "tags" to the text in order to create the structure. These tags tell the browser how to display the text or graphics in the document. Tags are surrounded by arrow keys like this. 
 
 ```
-<html>
+<html> opening html tag
 	<head>
-		<title>Simon</title>
+		<title> title tag </title>
 	</head>
-		<body> This is an open body tag
-			<div> This is an open div tag
-				<div class="inner-circle">
-					<p> This is a paragraph tag	</p>
-					<button> This is a button tag </button> 
-					<h1> This is a heading tag </h1>
+		<body> opening body tag
+			<div> opening div tag
+				<div>
+					<p> paragraph tag	</p>
+					<button> button tag </button> 
+					<h1> heading tag </h1>
 				</div>
-			</div> This is a closing div tag
-		</body> This is a closing body tag
-</html>
+			</div> closing div tag
+		</body> closing body tag
+</html> closing html tag
 ```
 
 
