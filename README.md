@@ -126,7 +126,8 @@ Did you notice that the Simon colors aren't red, blue, yellow and green as they 
 2. Experiment with changing these colors via their id tags `#q1`, `#q2`, `#q3`, `#q4`. Here's a [link](https://websafecolors.info/color-chart) to colors you can use. 
 
 HINT: Here's how you can change the first quadrant to red on line 24
-```#q1 {
+```
+#q1 {
 	background-color: #cc0000;
 	...
 ```
