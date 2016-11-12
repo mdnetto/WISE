@@ -9,7 +9,6 @@ These three concepts are:
 * CSS, styles that change the look and feel of the website
 * Javascript, which makes our page interactive
 
-Here's what the game looks like:
 ![alt text](https://github.com/mdnetto/WISE/blob/master/simon/images/simon.gif "Simon game")
 
 
