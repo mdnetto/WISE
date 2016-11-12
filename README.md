@@ -16,18 +16,18 @@ When writing HTML, you add "tags" to the text in order to create the structure. 
 
 ```
 <html>
-		<head>
-				<title>Simon</title>
-		</head>
-				<body> This is an open body tag
-						<div> This is an open div tag
-								<div class="inner-circle">
-										<p> This is a paragraph tag	</p>
-										<button> This is a button tag </button> 
-										<h1> This is a heading tag </h1>
-								</div>
-						</div> This is a closing div tag
-			</body> This is a closing body tag
+	<head>
+		<title>Simon</title>
+	</head>
+		<body> This is an open body tag
+			<div> This is an open div tag
+				<div class="inner-circle">
+					<p> This is a paragraph tag	</p>
+					<button> This is a button tag </button> 
+					<h1> This is a heading tag </h1>
+				</div>
+			</div> This is a closing div tag
+		</body> This is a closing body tag
 </html>
 ```
 
