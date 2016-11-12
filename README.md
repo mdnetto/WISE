@@ -11,12 +11,12 @@ These three concepts are:
 
 ![alt text](https://github.com/mdnetto/WISE/blob/master/simon/images/simon.gif "Simon game")
 
-### Simon
+# Simon
 1. Open the simon game and play with it!
 2. See how many levels you can get through!
 
 
-### HTML
+# HTML
 When writing HTML, you add "tags" to the text in order to create the structure. These tags tell the browser how to display the text or graphics in the document. Tags are surrounded by left and right arrow keys like this `<p>`. 
 
 ```
@@ -37,11 +37,11 @@ When writing HTML, you add "tags" to the text in order to create the structure. 
 ```
 
 
-#### HTML Exercise 1
+## HTML Exercise 1
 Everyone will be given an open or closing HTML tag, your job is to find the person who has your matching HTML tag! i.e If you have an open `<p>` tag, look for the person who has the matching closing `</p>` tag. 
 
 
-#### HTML Exercise 2
+## HTML Exercise 2
 HTML tags are often nested inside other tags. For example the `<div>` tag below has a `</p>`, `<button>` and an `<h1>` tag within it.
 ```
 <div>
@@ -54,7 +54,7 @@ HTML tags are often nested inside other tags. For example the `<div>` tag below 
 Now that you've found your partner, everyone needs to line up in order that they appear above. Hint: The person with the opening `<html>` tag will be first in the line and the person with the closing `</html>` tag will be last!
 
 
-#### HTML Exercise 3
+## HTML Exercise 3
 Let's open up the HTML file for Simon and look at the tags.
 
 1. In your editor, look for a file called simon.html
@@ -73,7 +73,7 @@ HINT: they on lines 11-15
 6. Change it back to the correct order!
 
 
-#### HTML Exercise 4
+## HTML Exercise 4
 1. Let's Change the `<title>` tag, change 'Simon' to your name 
 
 HINT: it's on line 5
@@ -85,7 +85,7 @@ HINT: it's on line 5
 4. What changed? Can you change it back to 'Simon'
 
 
-#### HTML Exercise 5
+## HTML Exercise 5
 1. Move the `<button>` tag to be the first element inside the `<body` tag. 
 
 HINT: The button tag is on line 19, move it to line 10
@@ -99,15 +99,12 @@ HINT: The button tag is on line 19, move it to line 10
 4. What changed? Can you figure out how to change it back?
 
 
-### CSS
+# CSS
 
-### Javascript
+# Javascript
 
-### Additional coding puzzles
+# Additional coding puzzles
 * [Maze and Bee] (https://studio.code.org/s/course4/stage/2/puzzle/1)
 * [] ()
 * [] ()
 * [] ()
-
-
-
