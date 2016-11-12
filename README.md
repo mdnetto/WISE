@@ -11,6 +11,10 @@ These three concepts are:
 
 ![alt text](https://github.com/mdnetto/WISE/blob/master/simon/images/simon.gif "Simon game")
 
+### Simon
+1. Open the simon game and play with it!
+2. See how many levels you can get through!
+
 ### HTML
 When writing HTML, you add "tags" to the text in order to create the structure. These tags tell the browser how to display the text or graphics in the document. Tags are surrounded by arrow keys like this. 
 
@@ -31,10 +35,10 @@ When writing HTML, you add "tags" to the text in order to create the structure. 
 </html> closing html tag
 ```
 
-#### HTML Tag Exercise 1
+#### HTML Exercise 1
 Everyone will be given an open or closing HTML tag, your job is to find the person who has your matching HTML tag! i.e If you have an open `<p>` tag, look for the person who has the matching closing `</p>` tag. 
 
-#### HTML Tag Exercise 2
+#### HTML Exercise 2
 HTML tags are often nested inside other tags. For example the `<div>` tag below has a `</p>`, `<button>` and an `<h1>` tag within it.
 ```
 <div>
@@ -46,11 +50,25 @@ HTML tags are often nested inside other tags. For example the `<div>` tag below 
 
 Now that you've found your partner, everyone needs to line up in order that they appear above. Hint: The person with the 
 
-#### HTML Tag Exercise 3
+#### HTML Exercise 3
 Let's open up the HTML file for Simon and look at the tags.
 
 1. In your editor, look for a file called simon.html
-2. 
+2. Try rearranging the tags which have an id with q1, q2, q3, or q4
+3. Save the file
+4. Re-load your simon file in the browser
+5. What did you notice?
+6. Change it back to the correct order!
+
+#### HTML Exercise 4
+1. Let's Change the `<title>` tag, change 'Simon' to your name
+2. Save the file
+3. Re-load your simon file in the browser
+4. What changed? Can you change it back to 'Simon'
+
+#### HTML Exercise 5
+
+
 
 
 
